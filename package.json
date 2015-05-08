@@ -1,0 +1,27 @@
+{
+  "name": "trusted-real-ip",
+  "version": "1.0.0",
+  "description": "Only loads ip from trusted sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MusicMapIo/trusted-real-ip.git"
+  },
+  "keywords": [
+    "x-real-ip",
+    "x-forwarded-for",
+    "ip"
+  ],
+  "author": "MusicMap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MusicMapIo/trusted-real-ip/issues"
+  },
+  "homepage": "https://github.com/MusicMapIo/trusted-real-ip",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
